@@ -89,5 +89,15 @@ namespace AssetStudioGUI
             DialogResult = DialogResult.Cancel;
             Close();
         }
+
+        private void assetGroupOptions_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void scaleFactor_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

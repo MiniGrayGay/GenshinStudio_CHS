@@ -2195,6 +2195,41 @@ namespace AssetStudioGUI
             }
         }
 
+        private void 关于ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sceneTreeView_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+
+        }
+
+        private void optionsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void assetListView_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripMenuItem14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void 此软件是ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void 此版本是ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void glControl1_MouseWheel(object sender, MouseEventArgs e)
         {
             if (glControl1.Visible)

@@ -119,7 +119,7 @@ namespace AssetStudio
             }
             catch (Exception e)
             {
-                Logger.Warning($"BLKMap was not loaded, {e.Message}");
+                Logger.Warning($"BLKMap未载入，因为 {e.Message}");
             }
         }
         public static void AddCabOffset(string asb)
