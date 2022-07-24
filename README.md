@@ -1,4 +1,5 @@
 # GenshinStudio
+GenshinStudio汉化版
 ## Notice:
 __*This project has been archieved/discontinued, it will not longer recieve support/updates.*__
 
