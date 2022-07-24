@@ -81,9 +81,14 @@
             this.console = new System.Windows.Forms.ToolStripMenuItem();
             this.miscToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.buildBLKMapToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.关于ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.此软件是ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.这是GenshinStudio的Github地址httpsgithubcomRazmothGenshinStudioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.此版本是ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.sceneTreeView = new AssetStudioGUI.GOHierarchy();
             this.treeSearch = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.assetListView = new System.Windows.Forms.ListView();
@@ -130,11 +135,6 @@
             this.exportAnimatorwithselectedAnimationClipMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.goToSceneHierarchyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.showOriginalFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.关于ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.此软件是ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.这是GenshinStudio的Github地址httpsgithubcomRazmothGenshinStudioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.此版本是ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sceneTreeView = new AssetStudioGUI.GOHierarchy();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -328,45 +328,45 @@
             // 
             this.exportAllObjectssplitToolStripMenuItem1.Font = new System.Drawing.Font("汉仪文黑-85W", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.exportAllObjectssplitToolStripMenuItem1.Name = "exportAllObjectssplitToolStripMenuItem1";
-            this.exportAllObjectssplitToolStripMenuItem1.Size = new System.Drawing.Size(640, 34);
-            this.exportAllObjectssplitToolStripMenuItem1.Text = "Export all objects (split)";
+            this.exportAllObjectssplitToolStripMenuItem1.Size = new System.Drawing.Size(425, 34);
+            this.exportAllObjectssplitToolStripMenuItem1.Text = "导出所有对象（拆分）";
             this.exportAllObjectssplitToolStripMenuItem1.Click += new System.EventHandler(this.exportAllObjectssplitToolStripMenuItem1_Click);
             // 
             // exportSelectedObjectsToolStripMenuItem
             // 
             this.exportSelectedObjectsToolStripMenuItem.Font = new System.Drawing.Font("汉仪文黑-85W", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.exportSelectedObjectsToolStripMenuItem.Name = "exportSelectedObjectsToolStripMenuItem";
-            this.exportSelectedObjectsToolStripMenuItem.Size = new System.Drawing.Size(640, 34);
-            this.exportSelectedObjectsToolStripMenuItem.Text = "Export selected objects (split)";
+            this.exportSelectedObjectsToolStripMenuItem.Size = new System.Drawing.Size(425, 34);
+            this.exportSelectedObjectsToolStripMenuItem.Text = "导出选定对象（拆分）";
             this.exportSelectedObjectsToolStripMenuItem.Click += new System.EventHandler(this.exportSelectedObjectsToolStripMenuItem_Click);
             // 
             // exportSelectedObjectsWithAnimationClipToolStripMenuItem
             // 
             this.exportSelectedObjectsWithAnimationClipToolStripMenuItem.Font = new System.Drawing.Font("汉仪文黑-85W", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.exportSelectedObjectsWithAnimationClipToolStripMenuItem.Name = "exportSelectedObjectsWithAnimationClipToolStripMenuItem";
-            this.exportSelectedObjectsWithAnimationClipToolStripMenuItem.Size = new System.Drawing.Size(640, 34);
-            this.exportSelectedObjectsWithAnimationClipToolStripMenuItem.Text = "Export selected objects (split) + selected AnimationClips";
+            this.exportSelectedObjectsWithAnimationClipToolStripMenuItem.Size = new System.Drawing.Size(425, 34);
+            this.exportSelectedObjectsWithAnimationClipToolStripMenuItem.Text = "导出选定对象和选定动画剪辑";
             this.exportSelectedObjectsWithAnimationClipToolStripMenuItem.Click += new System.EventHandler(this.exportObjectswithAnimationClipMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(637, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(422, 6);
             // 
             // exportSelectedObjectsmergeToolStripMenuItem
             // 
             this.exportSelectedObjectsmergeToolStripMenuItem.Font = new System.Drawing.Font("汉仪文黑-85W", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.exportSelectedObjectsmergeToolStripMenuItem.Name = "exportSelectedObjectsmergeToolStripMenuItem";
-            this.exportSelectedObjectsmergeToolStripMenuItem.Size = new System.Drawing.Size(640, 34);
-            this.exportSelectedObjectsmergeToolStripMenuItem.Text = "Export selected objects (merge)";
+            this.exportSelectedObjectsmergeToolStripMenuItem.Size = new System.Drawing.Size(425, 34);
+            this.exportSelectedObjectsmergeToolStripMenuItem.Text = "导出选定对象（合并）";
             this.exportSelectedObjectsmergeToolStripMenuItem.Click += new System.EventHandler(this.exportSelectedObjectsmergeToolStripMenuItem_Click);
             // 
             // exportSelectedObjectsmergeWithAnimationClipToolStripMenuItem
             // 
             this.exportSelectedObjectsmergeWithAnimationClipToolStripMenuItem.Font = new System.Drawing.Font("汉仪文黑-85W", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.exportSelectedObjectsmergeWithAnimationClipToolStripMenuItem.Name = "exportSelectedObjectsmergeWithAnimationClipToolStripMenuItem";
-            this.exportSelectedObjectsmergeWithAnimationClipToolStripMenuItem.Size = new System.Drawing.Size(640, 34);
-            this.exportSelectedObjectsmergeWithAnimationClipToolStripMenuItem.Text = "Export selected objects (merge) + selected AnimationClips";
+            this.exportSelectedObjectsmergeWithAnimationClipToolStripMenuItem.Size = new System.Drawing.Size(425, 34);
+            this.exportSelectedObjectsmergeWithAnimationClipToolStripMenuItem.Text = "导出选定对象（合并）和选定的动画剪辑";
             this.exportSelectedObjectsmergeWithAnimationClipToolStripMenuItem.Click += new System.EventHandler(this.exportSelectedObjectsmergeWithAnimationClipToolStripMenuItem_Click);
             // 
             // exportToolStripMenuItem
@@ -609,6 +609,40 @@
             this.buildBLKMapToolStripMenuItem.Text = "构建BLKMap";
             this.buildBLKMapToolStripMenuItem.Click += new System.EventHandler(this.buildBLKMapToolStripMenuItem_Click);
             // 
+            // 关于ToolStripMenuItem
+            // 
+            this.关于ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.此软件是ToolStripMenuItem,
+            this.这是GenshinStudio的Github地址httpsgithubcomRazmothGenshinStudioToolStripMenuItem,
+            this.此版本是ToolStripMenuItem});
+            this.关于ToolStripMenuItem.Font = new System.Drawing.Font("汉仪文黑-85W", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.关于ToolStripMenuItem.Name = "关于ToolStripMenuItem";
+            this.关于ToolStripMenuItem.Size = new System.Drawing.Size(62, 25);
+            this.关于ToolStripMenuItem.Text = "关于";
+            // 
+            // 此软件是ToolStripMenuItem
+            // 
+            this.此软件是ToolStripMenuItem.Font = new System.Drawing.Font("汉仪文黑-85W", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.此软件是ToolStripMenuItem.Name = "此软件是ToolStripMenuItem";
+            this.此软件是ToolStripMenuItem.Size = new System.Drawing.Size(1388, 34);
+            this.此软件是ToolStripMenuItem.Text = "GenshinStudio是基于AssetStudio修改，以适配Genshin Impact的软件。这是原始AssetStudio的Github地址：https" +
+    "://github.com/Perfare/AssetStudio";
+            this.此软件是ToolStripMenuItem.Click += new System.EventHandler(this.此软件是ToolStripMenuItem_Click);
+            // 
+            // 这是GenshinStudio的Github地址httpsgithubcomRazmothGenshinStudioToolStripMenuItem
+            // 
+            this.这是GenshinStudio的Github地址httpsgithubcomRazmothGenshinStudioToolStripMenuItem.Name = "这是GenshinStudio的Github地址httpsgithubcomRazmothGenshinStudioToolStripMenuItem";
+            this.这是GenshinStudio的Github地址httpsgithubcomRazmothGenshinStudioToolStripMenuItem.Size = new System.Drawing.Size(1388, 34);
+            this.这是GenshinStudio的Github地址httpsgithubcomRazmothGenshinStudioToolStripMenuItem.Text = "这是GenshinStudio的Github地址：https://github.com/Razmoth/GenshinStudio";
+            // 
+            // 此版本是ToolStripMenuItem
+            // 
+            this.此版本是ToolStripMenuItem.Name = "此版本是ToolStripMenuItem";
+            this.此版本是ToolStripMenuItem.Size = new System.Drawing.Size(1388, 34);
+            this.此版本是ToolStripMenuItem.Text = "此版本是umaru-233基于Razmoth的GenshinStudio汉化的版本。本项目的Github地址：https://github.com/umaru-2" +
+    "33/GenshinStudio_CHS";
+            this.此版本是ToolStripMenuItem.Click += new System.EventHandler(this.此版本是ToolStripMenuItem_Click);
+            // 
             // splitContainer1
             // 
             this.splitContainer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -659,6 +693,18 @@
             this.tabPage1.Text = "场景层次";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // sceneTreeView
+            // 
+            this.sceneTreeView.CheckBoxes = true;
+            this.sceneTreeView.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.sceneTreeView.HideSelection = false;
+            this.sceneTreeView.Location = new System.Drawing.Point(0, 29);
+            this.sceneTreeView.Name = "sceneTreeView";
+            this.sceneTreeView.Size = new System.Drawing.Size(472, 567);
+            this.sceneTreeView.TabIndex = 1;
+            this.sceneTreeView.AfterCheck += new System.Windows.Forms.TreeViewEventHandler(this.sceneTreeView_AfterCheck);
+            this.sceneTreeView.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.sceneTreeView_AfterSelect);
+            // 
             // treeSearch
             // 
             this.treeSearch.Dock = System.Windows.Forms.DockStyle.Top;
@@ -680,7 +726,7 @@
             this.tabPage2.Controls.Add(this.listSearch);
             this.tabPage2.Location = new System.Drawing.Point(4, 30);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Size = new System.Drawing.Size(472, 593);
+            this.tabPage2.Size = new System.Drawing.Size(472, 596);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "资产列表";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -699,7 +745,7 @@
             this.assetListView.HideSelection = false;
             this.assetListView.Location = new System.Drawing.Point(0, 29);
             this.assetListView.Name = "assetListView";
-            this.assetListView.Size = new System.Drawing.Size(472, 564);
+            this.assetListView.Size = new System.Drawing.Size(472, 567);
             this.assetListView.TabIndex = 1;
             this.assetListView.UseCompatibleStateImageBehavior = false;
             this.assetListView.View = System.Windows.Forms.View.Details;
@@ -752,7 +798,7 @@
             this.tabPage3.Controls.Add(this.classesListView);
             this.tabPage3.Location = new System.Drawing.Point(4, 30);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(472, 593);
+            this.tabPage3.Size = new System.Drawing.Size(472, 596);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "资产类别";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -768,7 +814,7 @@
             this.classesListView.Location = new System.Drawing.Point(0, 0);
             this.classesListView.MultiSelect = false;
             this.classesListView.Name = "classesListView";
-            this.classesListView.Size = new System.Drawing.Size(472, 593);
+            this.classesListView.Size = new System.Drawing.Size(472, 596);
             this.classesListView.TabIndex = 0;
             this.classesListView.UseCompatibleStateImageBehavior = false;
             this.classesListView.View = System.Windows.Forms.View.Details;
@@ -1044,7 +1090,7 @@
             this.tabPage5.Controls.Add(this.dumpTextBox);
             this.tabPage5.Location = new System.Drawing.Point(4, 30);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(768, 585);
+            this.tabPage5.Size = new System.Drawing.Size(768, 588);
             this.tabPage5.TabIndex = 1;
             this.tabPage5.Text = "Dump";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -1057,7 +1103,7 @@
             this.dumpTextBox.Name = "dumpTextBox";
             this.dumpTextBox.ReadOnly = true;
             this.dumpTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.dumpTextBox.Size = new System.Drawing.Size(768, 585);
+            this.dumpTextBox.Size = new System.Drawing.Size(768, 588);
             this.dumpTextBox.TabIndex = 0;
             this.dumpTextBox.WordWrap = false;
             // 
@@ -1110,21 +1156,21 @@
             // 
             this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
             this.copyToolStripMenuItem.Size = new System.Drawing.Size(453, 30);
-            this.copyToolStripMenuItem.Text = "Copy text";
+            this.copyToolStripMenuItem.Text = "复制文本";
             this.copyToolStripMenuItem.Click += new System.EventHandler(this.copyToolStripMenuItem_Click);
             // 
             // exportSelectedAssetsToolStripMenuItem
             // 
             this.exportSelectedAssetsToolStripMenuItem.Name = "exportSelectedAssetsToolStripMenuItem";
             this.exportSelectedAssetsToolStripMenuItem.Size = new System.Drawing.Size(453, 30);
-            this.exportSelectedAssetsToolStripMenuItem.Text = "Export selected assets";
+            this.exportSelectedAssetsToolStripMenuItem.Text = "导出所选资产";
             this.exportSelectedAssetsToolStripMenuItem.Click += new System.EventHandler(this.exportSelectedAssetsToolStripMenuItem_Click);
             // 
             // exportAnimatorwithselectedAnimationClipMenuItem
             // 
             this.exportAnimatorwithselectedAnimationClipMenuItem.Name = "exportAnimatorwithselectedAnimationClipMenuItem";
             this.exportAnimatorwithselectedAnimationClipMenuItem.Size = new System.Drawing.Size(453, 30);
-            this.exportAnimatorwithselectedAnimationClipMenuItem.Text = "Export Animator + selected AnimationClips";
+            this.exportAnimatorwithselectedAnimationClipMenuItem.Text = "导出动画和选定的动画剪辑";
             this.exportAnimatorwithselectedAnimationClipMenuItem.Visible = false;
             this.exportAnimatorwithselectedAnimationClipMenuItem.Click += new System.EventHandler(this.exportAnimatorwithAnimationClipMenuItem_Click);
             // 
@@ -1132,7 +1178,7 @@
             // 
             this.goToSceneHierarchyToolStripMenuItem.Name = "goToSceneHierarchyToolStripMenuItem";
             this.goToSceneHierarchyToolStripMenuItem.Size = new System.Drawing.Size(453, 30);
-            this.goToSceneHierarchyToolStripMenuItem.Text = "Go to scene hierarchy";
+            this.goToSceneHierarchyToolStripMenuItem.Text = "转到场景层次";
             this.goToSceneHierarchyToolStripMenuItem.Visible = false;
             this.goToSceneHierarchyToolStripMenuItem.Click += new System.EventHandler(this.goToSceneHierarchyToolStripMenuItem_Click);
             // 
@@ -1140,55 +1186,9 @@
             // 
             this.showOriginalFileToolStripMenuItem.Name = "showOriginalFileToolStripMenuItem";
             this.showOriginalFileToolStripMenuItem.Size = new System.Drawing.Size(453, 30);
-            this.showOriginalFileToolStripMenuItem.Text = "Show original file";
+            this.showOriginalFileToolStripMenuItem.Text = "指向原始文件";
             this.showOriginalFileToolStripMenuItem.Visible = false;
             this.showOriginalFileToolStripMenuItem.Click += new System.EventHandler(this.showOriginalFileToolStripMenuItem_Click);
-            // 
-            // 关于ToolStripMenuItem
-            // 
-            this.关于ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.此软件是ToolStripMenuItem,
-            this.这是GenshinStudio的Github地址httpsgithubcomRazmothGenshinStudioToolStripMenuItem,
-            this.此版本是ToolStripMenuItem});
-            this.关于ToolStripMenuItem.Font = new System.Drawing.Font("汉仪文黑-85W", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.关于ToolStripMenuItem.Name = "关于ToolStripMenuItem";
-            this.关于ToolStripMenuItem.Size = new System.Drawing.Size(62, 25);
-            this.关于ToolStripMenuItem.Text = "关于";
-            // 
-            // 此软件是ToolStripMenuItem
-            // 
-            this.此软件是ToolStripMenuItem.Font = new System.Drawing.Font("汉仪文黑-85W", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.此软件是ToolStripMenuItem.Name = "此软件是ToolStripMenuItem";
-            this.此软件是ToolStripMenuItem.Size = new System.Drawing.Size(1388, 34);
-            this.此软件是ToolStripMenuItem.Text = "GenshinStudio是基于AssetStudio修改，以适配Genshin Impact的软件。这是原始AssetStudio的Github地址：https" +
-    "://github.com/Perfare/AssetStudio";
-            this.此软件是ToolStripMenuItem.Click += new System.EventHandler(this.此软件是ToolStripMenuItem_Click);
-            // 
-            // 这是GenshinStudio的Github地址httpsgithubcomRazmothGenshinStudioToolStripMenuItem
-            // 
-            this.这是GenshinStudio的Github地址httpsgithubcomRazmothGenshinStudioToolStripMenuItem.Name = "这是GenshinStudio的Github地址httpsgithubcomRazmothGenshinStudioToolStripMenuItem";
-            this.这是GenshinStudio的Github地址httpsgithubcomRazmothGenshinStudioToolStripMenuItem.Size = new System.Drawing.Size(1388, 34);
-            this.这是GenshinStudio的Github地址httpsgithubcomRazmothGenshinStudioToolStripMenuItem.Text = "这是GenshinStudio的Github地址：https://github.com/Razmoth/GenshinStudio";
-            // 
-            // 此版本是ToolStripMenuItem
-            // 
-            this.此版本是ToolStripMenuItem.Name = "此版本是ToolStripMenuItem";
-            this.此版本是ToolStripMenuItem.Size = new System.Drawing.Size(1388, 34);
-            this.此版本是ToolStripMenuItem.Text = "此版本是umaru-233基于Razmoth的GenshinStudio汉化的版本。本项目的Github地址：https://github.com/umaru-2" +
-    "33/GenshinStudio_CHS";
-            this.此版本是ToolStripMenuItem.Click += new System.EventHandler(this.此版本是ToolStripMenuItem_Click);
-            // 
-            // sceneTreeView
-            // 
-            this.sceneTreeView.CheckBoxes = true;
-            this.sceneTreeView.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.sceneTreeView.HideSelection = false;
-            this.sceneTreeView.Location = new System.Drawing.Point(0, 29);
-            this.sceneTreeView.Name = "sceneTreeView";
-            this.sceneTreeView.Size = new System.Drawing.Size(472, 567);
-            this.sceneTreeView.TabIndex = 1;
-            this.sceneTreeView.AfterCheck += new System.Windows.Forms.TreeViewEventHandler(this.sceneTreeView_AfterCheck);
-            this.sceneTreeView.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.sceneTreeView_AfterSelect);
             // 
             // AssetStudioGUIForm
             // 

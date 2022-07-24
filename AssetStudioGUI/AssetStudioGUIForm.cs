@@ -877,18 +877,18 @@ namespace AssetStudioGUI
                 }
                 PreviewTexture(bitmap);
 
-                StatusStripUpdate("'Ctrl'+'R'/'G'/'B'/'A' for Channel Toggle");
+                StatusStripUpdate("使用'Ctrl'+'R'/'G'/'B'/'A'切换通道");
             }
             else
             {
-                StatusStripUpdate("Unsupported image for preview");
+                StatusStripUpdate("不支持图像预览");
             }
         }
 
         private void PreviewAudioClip(AssetItem assetItem, AudioClip m_AudioClip)
         {
             //Info
-            assetItem.InfoText = "Compression format: ";
+            assetItem.InfoText = "格式：";
             if (m_AudioClip.version[0] < 5)
             {
                 switch (m_AudioClip.m_Type)
@@ -1732,7 +1732,7 @@ namespace AssetStudioGUI
             timer.Stop();
             FMODprogressBar.Value = 0;
             FMODtimerLabel.Text = "0:00.0 / 0:00.0";
-            FMODstatusLabel.Text = "Stopped";
+            FMODstatusLabel.Text = "停止";
             FMODinfoLabel.Text = "";
 
             if (sound != null && sound.isValid())
@@ -1762,13 +1762,13 @@ namespace AssetStudioGUI
                     result = system.playSound(sound, null, false, out channel);
                     if (ERRCHECK(result)) { return; }
 
-                    FMODpauseButton.Text = "Pause";
+                    FMODpauseButton.Text = "暂停";
                 }
                 else
                 {
                     result = system.playSound(sound, null, false, out channel);
                     if (ERRCHECK(result)) { return; }
-                    FMODstatusLabel.Text = "Playing";
+                    FMODstatusLabel.Text = "播放中";
 
                     if (FMODprogressBar.Value > 0)
                     {
@@ -1804,14 +1804,14 @@ namespace AssetStudioGUI
 
                     if (paused)
                     {
-                        FMODstatusLabel.Text = "Playing";
-                        FMODpauseButton.Text = "Pause";
+                        FMODstatusLabel.Text = "播放中";
+                        FMODpauseButton.Text = "暂停";
                         timer.Start();
                     }
                     else
                     {
-                        FMODstatusLabel.Text = "Paused";
-                        FMODpauseButton.Text = "Resume";
+                        FMODstatusLabel.Text = "暂停";
+                        FMODpauseButton.Text = "继续";
                         timer.Stop();
                     }
                 }
@@ -1837,8 +1837,8 @@ namespace AssetStudioGUI
                     timer.Stop();
                     FMODprogressBar.Value = 0;
                     FMODtimerLabel.Text = "0:00.0 / 0:00.0";
-                    FMODstatusLabel.Text = "Stopped";
-                    FMODpauseButton.Text = "Pause";
+                    FMODstatusLabel.Text = "停止";
+                    FMODpauseButton.Text = "暂停";
                 }
             }
         }
@@ -1951,7 +1951,7 @@ namespace AssetStudioGUI
 
             FMODtimerLabel.Text = $"{ms / 1000 / 60}:{ms / 1000 % 60}.{ms / 10 % 100} / {FMODlenms / 1000 / 60}:{FMODlenms / 1000 % 60}.{FMODlenms / 10 % 100}";
             FMODprogressBar.Value = (int)(ms * 1000 / FMODlenms);
-            FMODstatusLabel.Text = paused ? "Paused " : playing ? "Playing" : "Stopped";
+            FMODstatusLabel.Text = paused ? "Paused " : playing ? "播放" : "停止";
 
             if (system != null && channel != null)
             {

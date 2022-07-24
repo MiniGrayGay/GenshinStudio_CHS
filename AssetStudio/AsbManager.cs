@@ -86,7 +86,8 @@ namespace AssetStudio
         }
         public static void LoadBLKMap()
         {
-            Logger.Info(string.Format("Loading BLKMap"));
+            Logger.Warning(string.Format("请勿关闭本控制台，如果本控制台被关闭，GUI界面也将被关闭！如果您需要隐藏控制台，请关闭'调试-启用控制台'选项。"));
+            Logger.Info(string.Format("正在载入BLKMap..."));
             try
             {
                 BLKMap.Clear();
